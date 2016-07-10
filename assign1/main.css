@@ -1,0 +1,180 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+.sectionMainBody {
+  padding-top: 10%;
+  padding-left: 2%;
+}
+
+.sectionTitle {
+    background-color: #FF7F50;
+    position: absolute;
+    padding-left: 2%;
+    top: 0;
+    left: 80%;
+    width: 15%;
+    height: 20%;
+    float: right;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Desktop Computers **********/
+@media (min-width: 992px) {
+  .col-dc-1, .col-dc-2, .col-dc-3, .col-dc-4, .col-dc-5, .col-dc-6, .col-dc-7, .col-dc-8, .col-dc-9, .col-dc-10, .col-dc-11, .col-dc-12 {
+    float: left;
+    position: relative;
+    /*border: 1px solid green; <---Shows the box model's border.*/
+  }
+  .col-dc-1 {
+    width: 8.33%;
+  }
+  .col-dc-2 {
+    width: 16.66%;
+  }
+  .col-dc-3 {
+    width: 25%;
+  }
+  .col-dc-4 {
+    width: 33.33%;
+  }
+  .col-dc-5 {
+    width: 41.66%;
+  }
+  .col-dc-6 {
+    width: 50%;
+  }
+  .col-dc-7 {
+    width: 58.33%;
+  }
+  .col-dc-8 {
+    width: 66.66%;
+  }
+  .col-dc-9 {
+    width: 74.99%;
+  }
+  .col-dc-10 {
+    width: 83.33%;
+  }
+  .col-dc-11 {
+    width: 91.66%;
+  }
+  .col-dc-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablets **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tab-1, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-tab-10, .col-tab-11, .col-tab-12 {
+    float: left;
+    position: relative;
+    /*border: 1px solid green; <---Shows the box model's border.*/
+  }
+  .col-tab-12 p {
+    width: 95%;
+  }
+  .col-tab-12 .sectionTitle {
+    left: 85%;
+    width: 12.5%;
+  }
+
+  .col-tab-1 {
+    width: 8.33%;
+  }
+  .col-tab-2 {
+    width: 16.66%;
+  }
+  .col-tab-3 {
+    width: 25%;
+  }
+  .col-tab-4 {
+    width: 33.33%;
+  }
+  .col-tab-5 {
+    width: 41.66%;
+  }
+  .col-tab-6 {
+    width: 50%;
+  }
+  .col-tab-7 {
+    width: 58.33%;
+  }
+  .col-tab-8 {
+    width: 66.66%;
+  }
+  .col-tab-9 {
+    width: 74.99%;
+  }
+  .col-tab-10 {
+    width: 83.33%;
+  }
+  .col-tab-11 {
+    width: 91.66%;
+  }
+  .col-tab-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile Devices **********/
+@media (max-width: 767px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    position: relative;
+    /*border: 1px solid green; <---Shows the box model's border.*/
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
