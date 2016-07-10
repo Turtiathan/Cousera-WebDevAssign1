@@ -1,2 +1,2 @@
-# cousera-test
-Cousera Test Repository
+# cousera-webdevclasses
+Cousera-WebDevClasses Repository
